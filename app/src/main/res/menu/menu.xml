@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/dashboard"
+        android:title="@string/dashboard" />
+
+    <item
+        android:id="@+id/navigation_inventory_management"
+        android:icon="@drawable/inventory"
+        android:title="@string/inventory" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/bell"
+        android:title="@string/notifications"/>
+
+    <item
+        android:id="@+id/history_fragment"
+        android:icon="@drawable/report"
+        android:title="@string/history"/>
+</menu>

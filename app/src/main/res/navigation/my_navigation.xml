@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.wolvesgroup.inventorymanagment.fragments.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+    </fragment>
+    <fragment
+        android:id="@+id/inventoryManagementFragment"
+        android:name="com.wolvesgroup.inventorymanagment.fragments.InventoryManagementFragment"
+        android:label="fragment_inventory_management"
+        tools:layout="@layout/fragment_inventory_management" />
+    <fragment
+        android:id="@+id/reportingFragment"
+        android:name="com.wolvesgroup.inventorymanagment.fragments.ReportingFragment"
+        android:label="fragment_reporting"
+        tools:layout="@layout/fragment_reporting" />
+    <fragment
+        android:id="@+id/alertsFragment"
+        android:name="com.wolvesgroup.inventorymanagment.fragments.AlertsFragment"
+        android:label="fragment_alerts"
+        tools:layout="@layout/fragment_alerts" />
+</navigation>
